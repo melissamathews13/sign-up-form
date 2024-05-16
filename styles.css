@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+}
+.container {
+	
+    
+}
+
+img {
+   display: block;
+   max-width: 100%;
+}
+
+.background-img {
+    position: relative;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.left-section {
+
+}
+
+.right-section {
+    
+}
