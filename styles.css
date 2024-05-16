@@ -1,26 +1,53 @@
+@import url(https://fonts.bunny.net/css?family=aldrich:400);
+
+@import url(https://fonts.bunny.net/css?family=albert-sans:300|aldrich:400);
+
 * {
-    margin: 0;
+	margin: 0;
 }
+
+a:link {
+	color: #ffffff;
+}
+a:visited {
+	color: #ffffff;
+}
+
+.img-credit {
+	position: absolute;
+	bottom: 10px;
+	left: 30%;
+	font-family: 'Albert Sans', sans-serif;
+	font-size: 12px;
+}
+
 .container {
-	
-    
-}
-
-img {
-   display: block;
-   max-width: 100%;
-}
-
-.background-img {
-    position: relative;
-    top: 0;
-    left: 0;
-    z-index: 1;
+	display: flex;
 }
 .left-section {
-
+	position: relative;
+	display: inline-block;
+	color: #ffffff;
+}
+.left-section img {
+	display: block;
+	max-width: 100%;
+	height: auto;
+}
+.odin-logo {
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: #ffffff;
+	padding: 10px 20px;
+	text-align: center;
+	backdrop-filter: blur(5px);
 }
 
-.right-section {
-    
+.odin-text {
+	margin: 25px;
+	font-family: "Aldrich", sans-serif;
+	font-size: 45px;
+	text-align: center;
 }
