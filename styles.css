@@ -51,3 +51,19 @@ a:visited {
 	font-size: 45px;
 	text-align: center;
 }
+
+.right-section {
+    font-family: 'Albert Sans', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 70px;
+}
+
+.sign-up-form {
+    position: absolute;
+    top: 30%;
+    }
+.form-row {
+    font-size: 12px;
+    padding: 10px;
+}
