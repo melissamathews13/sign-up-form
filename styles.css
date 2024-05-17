@@ -4,6 +4,19 @@
 
 * {
 	margin: 0;
+    padding: 0;
+}
+
+body {
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h4 {
+    display: block;
+    text-align: center;
+	margin: 50px;
 }
 
 a:link {
@@ -16,7 +29,7 @@ a:visited {
 .img-credit {
 	position: absolute;
 	bottom: 10px;
-	left: 30%;
+	left: 20%;
 	font-family: "Albert Sans", sans-serif;
 	font-size: 12px;
 }
@@ -58,12 +71,17 @@ a:visited {
 	font-family: "Albert Sans", sans-serif;
 	font-size: 18px;
 	font-weight: bold;
+    width: 100%;
+    
 }
 
-.sign-up-form {
+.form-container {
 	background-color: #f6f6f6;
 	position: absolute;
 	top: 30%;
+    padding: 2em;
+    display: grid;
+    grid-template-columns: 30vw 30vw;
 	width:100%;
 	-webkit-box-shadow: 0 1px 4px rgba(0, 0, 0, 0.3),
 		0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -75,7 +93,15 @@ a:visited {
 .form-row {
 	font-size: 12px;
 	padding: 10px;
-	
+}
+
+input {
+	display: block;
+	width: 100%;
+	border: solid 1px rgb(212, 211, 211);
+	border-radius: 5px;
+	padding: 5px;
+
 }
 
 .additional-text {
@@ -89,6 +115,7 @@ a:visited {
 }
 
 .create-btn {
+	position: a;
     background-color: rgb(70, 212, 153);
     border: none;
     color:  #ffffff;
