@@ -2,8 +2,10 @@
 
 ## A sign up form for an imaginary service
 
+![alt text](sign-up-form.png)
 ## Technologies Uses
 * HTML5
+* CSS3
 
 ## Contributing
 
